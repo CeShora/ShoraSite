@@ -1,15 +1,17 @@
 enable : true
-headingSpan : خدمات شورا
+headingSpan : سایت های مرتبط با دانشکده
 serviceItem :
   - icon : tf-ion-ios-book-outline
-    url : https://goo.gl/aUxR9q
-    title : کتاب‌خانه شورا
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    url :
+    title : سایت دانشکده
+    content :
     
   - icon : tf-ion-android-happy
-    title : برگزاری جشن ها
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
+    url :
+    title : مودل
+    content :
+
   - icon : tf-newspaper
-    title : پویش
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    url :
+    title : سایت انجمن
+    content :

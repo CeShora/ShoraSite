@@ -1,14 +1,17 @@
 enable : true
-headingSpan : هیچی
+headingSpan : خدمات شورا
 aboutItem : 
-- icon : tf-tools
-  title : We're Creative
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+- icon : tf-ion-ios-book-outline
+  url : https://goo.gl/aUxR9q
+  title : کتاب‌خانه شورا
+  content : برای اطلاع از کتاب های موجود در کتاب‌خانه ی شورا به این لینک مراجعه کنید.
 
-- icon : tf-strategy
-  title : We're Professional
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+- icon : tf-ion-android-happy
+  url :
+  title : برگزاری جشن ها
+  content :
 
-- icon : tf-anchor2
-  title : We're Genius
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+- icon : tf-newspaper
+  url :
+  title : پویش
+  content :

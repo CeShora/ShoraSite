@@ -13,12 +13,12 @@ summaryLength = 10
 # Menu
 [menu]
     [[menu.nav]]
-    name = "هیچی"
+    name = "خدمات"
     URL = "about"
     weight = 1
 
     [[menu.nav]]
-    name = "خدمات"
+    name = "لینک ها"
     URL = "services"
     weight = 2
 
