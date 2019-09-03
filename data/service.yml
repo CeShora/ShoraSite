@@ -1,14 +1,15 @@
 enable : true
 headingSpan : خدمات شورا
 serviceItem :
-  - icon : tf-globe
+  - icon : tf-ion-ios-book-outline
+    url : https://goo.gl/aUxR9q
     title : کتاب‌خانه شورا
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
-  - icon : tf-ion-laptop
+  - icon : tf-ion-android-happy
     title : برگزاری جشن ها
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
-  - icon : tf-genius
+  - icon : tf-newspaper
     title : پویش
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
