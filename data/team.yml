@@ -15,7 +15,7 @@ teamMember:
       - icon: tf-ion-social-dribbble-outline
         url: "#"
 
-  - image: images/team/team-2.jpg
+  - image: images/team/team-3.jpg
     name: کوروش روحی
     designation: مسئول فرهنگی
     description:
@@ -71,7 +71,7 @@ teamMember:
       - icon: tf-ion-social-dribbble-outline
         url: "#"
 
-  - image: images/team/team-3.jpg
+  - image: images/team/team-2.jpg
     name: محمدرضا امینی
     designation: مسئول ورزشی
     description:

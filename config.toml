@@ -15,17 +15,17 @@ summaryLength = 10
     [[menu.nav]]
     name = "هیچی"
     URL = "about"
-    weight = 7
+    weight = 1
 
     [[menu.nav]]
     name = "خدمات"
     URL = "services"
-    weight = 6
+    weight = 2
 
     [[menu.nav]]
     name = "گالری"
     URL = "portfolio"
-    weight = 5
+    weight = 3
 
     [[menu.nav]]
     name = "معرفی"
@@ -33,19 +33,19 @@ summaryLength = 10
     weight = 4
 
     [[menu.nav]]
-    name = "برنامه های پیش‌رو"
+    name = "برنامه ها"
     URL = "pricing"
-    weight = 3
+    weight = 5
 
     [[menu.nav]]
     name = "بلاگ"
     URL = "blog"
-    weight = 2
+    weight = 6
 
     [[menu.nav]]
     name = "ارتباط با ما"
     URL = "contact-us"
-    weight = 1
+    weight = 7
 
 # Site params
 [params]
