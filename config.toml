@@ -1,7 +1,7 @@
 baseURL = "http://shora.ceit.aut.ac.ir/"
 languageCode = "fa"
 DefaultContentLanguage = "fa"
-title = "شورای صنفی دانشکده کامپیوتر"
+title = "شورای صنفی دانشکده مهندسی کامپیوتر"
 theme = "meghna-hugo"
 summaryLength = 10
 

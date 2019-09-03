@@ -1,58 +1,100 @@
-enable : true
-headingSpan : معرفی اعضای شورا
-teamMember :
-  - image : images/team/team-1.jpg
-    name : سپیده گلچین راد
-    designation : دبیر
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-2.jpg
-    name : کوروش روحی
-    designation : مسئول فرهنگی
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-3.jpg
-    name : مریم علی‌کرمی
-    designation : مسئول آموزشی
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-4.jpg
-    name : امیرحسین سرور
-    designation : مسئول صنفی
-    description : للناذبنیبلذینتبلذیب
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
+enable: true
+headingSpan: معرفی اعضای شورا
+teamMember:
+  - image: images/team/team-1.jpg
+    name: سپیده گلچین راد
+    designation: دبیر
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
+
+  - image: images/team/team-2.jpg
+    name: کوروش روحی
+    designation: مسئول فرهنگی
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
+
+  - image: images/team/team-4.jpg
+    name: مریم علی‌کرمی
+    designation: مسئول آموزشی
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
+
+  - image: images/team/team-2.jpg
+    name: امیرحسین سرور
+    designation: مسئول صنفی
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
+
+  - image: images/team/team-4.jpg
+    name: نگین موسوی
+    designation: مسئول روابط عمومی
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
+
+  - image: images/team/team-3.jpg
+    name: محمدرضا امینی
+    designation: مسئول ورزشی
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
+
+  - image: images/team/team-4.jpg
+    name: بهار کاویانی
+    designation: مسئول مالی
+    description:
+    socialIcon:
+      - icon: tf-ion-social-facebook
+        url: "#"
+      - icon: tf-ion-social-twitter
+        url: "#"
+      - icon: tf-ion-social-linkedin
+        url: "#"
+      - icon: tf-ion-social-dribbble-outline
+        url: "#"
