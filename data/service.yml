@@ -1,17 +1,17 @@
 enable : true
 headingSpan : سایت های مرتبط با دانشکده
 serviceItem :
-  - icon : tf-ion-ios-book-outline
-    url :
+  - img : images/site/CeitLogo.png
+    url : https://ceit.aut.ac.ir/autcms/computer-engineering/fa/home
     title : سایت دانشکده
     content :
     
-  - icon : tf-ion-android-happy
-    url :
+  - img : images/site/MoodleLogo.png
+    url : https://ceit.aut.ac.ir/courses
     title : مودل
     content :
 
-  - icon : tf-newspaper
-    url :
+  - img : images/site/sscLogo.png
+    url : http://ceit-ssc.ir
     title : سایت انجمن
     content :

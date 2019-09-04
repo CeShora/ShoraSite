@@ -4,14 +4,14 @@ aboutItem :
 - icon : tf-ion-ios-book-outline
   url : https://goo.gl/aUxR9q
   title : کتاب‌خانه شورا
-  content : برای اطلاع از کتاب های موجود در کتاب‌خانه ی شورا به این لینک مراجعه کنید.
+  content : برای اطلاع از کتاب های موجود در کتاب‌خانه ی شورا به این بخش مراجعه کنید.
 
-- icon : tf-ion-android-happy
+- icon : tf-ion-mic-c
   url :
-  title : برگزاری جشن ها
-  content :
+  title : پادکست
+  content : به زودی...
 
 - icon : tf-newspaper
   url :
   title : پویش
-  content :
+  content : به زودی...

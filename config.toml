@@ -18,34 +18,29 @@ summaryLength = 10
     weight = 1
 
     [[menu.nav]]
-    name = "لینک ها"
-    URL = "services"
-    weight = 2
-
-    [[menu.nav]]
     name = "گالری"
     URL = "portfolio"
-    weight = 3
+    weight = 2
 
     [[menu.nav]]
     name = "معرفی"
     URL = "our-team"
-    weight = 4
+    weight = 3
 
     [[menu.nav]]
     name = "برنامه ها"
     URL = "pricing"
-    weight = 5
+    weight = 4
 
     [[menu.nav]]
     name = "بلاگ"
     URL = "blog"
-    weight = 6
+    weight = 5
 
     [[menu.nav]]
     name = "ارتباط با ما"
     URL = "contact-us"
-    weight = 7
+    weight = 6
 
 # Site params
 [params]
@@ -69,7 +64,7 @@ custom_css = ["css/custom.css"]
     [params.cta]
     enable = true
     title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    content= "توضیحات پایین سایت. برای دیده شدن این متن در فایل cta.html را بخش کامنت شده را پاگ کنید."
     btnURL = "#"
     btnText = "Start a project with us"
 
@@ -77,25 +72,6 @@ custom_css = ["css/custom.css"]
     [params.counter]
     enable = true
     bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
 
     # footer
     [params.footer]
