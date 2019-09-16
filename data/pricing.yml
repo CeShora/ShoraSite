@@ -7,8 +7,8 @@ pricingTable :
     btnURL : #
     btnText : ثبت نام
 
-  - title : جشن یلدا و ورودی های ۹۸
-    time : تاریخ
-    img : images/event/Vorudi.png
-    btnURL : #
-    btnText : ثبت نام
+#  - title : جشن یلدا و ورودی های ۹۸
+#    time : تاریخ
+#    img : images/event/Vorudi.png
+#    btnURL : #
+#    btnText : ثبت نام
