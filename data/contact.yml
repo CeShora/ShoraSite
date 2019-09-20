@@ -1,7 +1,8 @@
 enable : true
 headingSpan : ارتباط با ما
-title : Contact Details
-content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+title : راه های ارتباطی
+content : برای ارتباط با شورای صنفی می‌توانید از طریق همین بخش نظرات خود را ارسال نمایید. هم‌چنین با عضویت در کانال شورا می‌توانید از طریق آی‌دی اعضا با آنها به طور مستقیم ارتباط برقرار کنید.
+content2 : شورای صنفی همواره پذیرای پیشنهادات و انتقادات شماست.
 #enable_maps : true
 mapLatitude : 51.5223477
 mapLongitude: -0.1622023

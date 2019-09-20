@@ -1,7 +1,7 @@
 baseURL = "http://shora.ceit.aut.ac.ir/"
 languageCode = "fa"
 DefaultContentLanguage = "fa"
-title = "شورای صنفی دانشکده مهندسی کامپیوتر"
+title = "شورا صنفی دانشکده مهندسی کامپیوتر"
 theme = "meghna-hugo"
 shamsiDateFormat = "d MMM ماه yyyy"
 summaryLength = 10
@@ -19,34 +19,29 @@ summaryLength = 10
     weight = 1
 
     [[menu.nav]]
-    name = "گالری"
-    URL = "portfolio"
-    weight = 2
-
-    [[menu.nav]]
     name = "برنامه ها"
     URL = "pricing"
-    weight = 3
+    weight = 2
 
     [[menu.nav]]
     name = "تازه ها"
     URL = "blog"
-    weight = 4
+    weight = 3
 
     [[menu.nav]]
     name = "معرفی"
     URL = "our-team"
-    weight = 5
+    weight = 4
 
     [[menu.nav]]
     name = "سایر لینک ها"
     URL = "services"
-    weight = 6
+    weight = 5
 
     [[menu.nav]]
     name = "ارتباط با ما"
     URL = "contact-us"
-    weight = 7
+    weight = 6
 
 # Site params
 [params]
@@ -62,7 +57,7 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/CEIT.png"
+    bgImage = "images/slider/CEIT.jpg"
     heading = "شورای صنفی دانشکده مهندسی کامپیوتر "
     content= "توضیحات پایین سایت. برای دیده شدن این متن در فایل hero-area.html را بخش کامنت شده را پاگ کنید."
 

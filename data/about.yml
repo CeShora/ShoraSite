@@ -2,7 +2,8 @@ enable : true
 headingSpan : خدمات شورا
 aboutItem : 
 - icon : tf-ion-ios-book-outline
-  url : https://goo.gl/aUxR9q
+#  url: https://goo.gl/aUxR9q
+  url: html/library.html
   title : کتاب‌خانه شورا
   content : برای اطلاع از کتاب های موجود در کتاب‌خانه ی شورا به این بخش مراجعه کنید.
 
@@ -15,3 +16,9 @@ aboutItem :
   url :
   title : پویش
   content : به زودی...
+
+- icon :  tf-ion-settings
+  url :
+  title : صنفی
+  content : گزارش های صنفی دانشکده را از اینجا بخوانید.
+  content2 : به زودی...
