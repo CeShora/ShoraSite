@@ -1,38 +1,86 @@
-<nav id="navigation" class="navbar navbar-expand-lg navigation sticky-top">
-    <div class="container">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>لیست کتاب ها و جزوات شورای صنفی</title>
+<!--        <link rel="stylesheet" href="../../themes/meghna-hugo/static/plugins/bootstrap/dist/css/bootstrap.min.css">-->
+<!--        <link rel="stylesheet" href="../../themes/meghna-hugo/static/plugins/themefisher-font/style.css">-->
+<!--        <link rel="stylesheet" href="../../themes/meghna-hugo/assets/css/style.css">-->
+        <link rel="stylesheet" href="../css/base.css">
+        <script type='text/javascript' src='tabletop.min.js'/>
+    </head>
 
-        {{"<!-- logo -->" | safeHTML}}
-        <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
-            <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
-            <span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
-        </a>
-        {{"<!-- /logo -->" | safeHTML}}
+    <body>
 
-        {{"<!-- responsive nav button -->" | safeHTML}}
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        {{"<!-- /responsive nav button -->" | safeHTML}}
+    <script>
+        function init() {
+            Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE/pubhtml',
+                callback: function(data, tabletop) {
+                    console.log(data)
+                },
+                simpleSheet: true } )
+        }
+        window.addEventListener('DOMContentLoaded', init)
+    </script>
 
-        {{"<!-- main nav -->" | safeHTML}}
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            {{ if .IsHome }}
-            <ul class="navbar-nav ml-auto navigation-menu">
-                <li class="nav-item"><a class="nav-link" data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                {{ range $.Site.Menus.nav }}
-                <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-            {{ else }}
-            <ul class="navbar-nav ml-auto navigation-menu">
-                <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                {{ range $.Site.Menus.nav }}
-                <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
-        {{ end }}
-        {{"<!-- /main nav -->" | safeHTML}}
-    </div>
+<!--    &lt;!&ndash; Fixed Navigation &ndash;&gt;-->
+<!--    <nav id="navigation" class="navbar navbar-expand-lg navigation sticky-top">-->
+<!--        <div class="container">-->
 
-</nav>
+<!--            &lt;!&ndash; logo &ndash;&gt;-->
+<!--            <a class="navbar-brand logo" href="http://shora.ceit.aut.ac.ir/">-->
+<!--                <img src="../images/logo1.png" alt="Logo" />-->
+<!--                <span class="pl-2 font-weight-bold">شورا صنفی دانشکده مهندسی کامپیوتر</span>-->
+<!--            </a>-->
+<!--            &lt;!&ndash; /logo &ndash;&gt;-->
+
+<!--            &lt;!&ndash; responsive nav button &ndash;&gt;-->
+<!--            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            &lt;!&ndash; /responsive nav button &ndash;&gt;-->
+
+<!--            {{"&lt;!&ndash; main nav &ndash;&gt;" | safeHTML}}-->
+<!--            <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--                {{ if .IsHome }}-->
+<!--                <ul class="navbar-nav ml-auto navigation-menu">-->
+<!--                    <li class="nav-item"><a class="nav-link" data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>-->
+<!--                    {{ range $.Site.Menus.nav }}-->
+<!--                    <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>-->
+<!--                    {{ end }}-->
+<!--                </ul>-->
+<!--                {{ else }}-->
+<!--                <ul class="navbar-nav ml-auto navigation-menu">-->
+<!--                    <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>-->
+<!--                    {{ range $.Site.Menus.nav }}-->
+<!--                    <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>-->
+<!--                    {{ end }}-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            {{ end }}-->
+<!--            {{"&lt;!&ndash; /main nav &ndash;&gt;" | safeHTML}}-->
+<!--        </div>-->
+
+<!--    </nav>-->
+    <!-- End Fixed Navigation -->
+
+    <h1>لیست کتاب ها و جزوات شورای صنفی</h1>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+        <script type='text/javascript'>
+            var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1XTtO83gKd3SUyTwfEgtpOK2Uxv7NDQD3lCsia3iBH14/edit?usp=sharing';
+
+            function init() {
+                Tabletop.init( { key: publicSpreadsheetUrl,
+                    callback: showInfo,
+                    simpleSheet: true } )
+            }
+
+            function showInfo(data, tabletop) {
+                alert('Successfully processed!')
+                console.log(data);
+            }
+
+            window.addEventListener('DOMContentLoaded', init)
+        </script>
+    </body>
+</html>

@@ -2,13 +2,7 @@ enable : true
 headingSpan : برنامه های پیش‌رو
 pricingTable :
   - title : جشن فارغ‌التحصیلی
-    time : تاریخ
-    img : images/event/Noruz.jpg
+    time : پنج‌شنبه ۲۳ آبان‌ماه ۹۸
+    img : images/event/فارغ-التحصیلی۹۴.jpg
     btnURL : #
     btnText : ثبت نام
-
-#  - title : جشن یلدا و ورودی های ۹۸
-#    time : تاریخ
-#    img : images/event/Vorudi.png
-#    btnURL : #
-#    btnText : ثبت نام

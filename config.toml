@@ -14,17 +14,17 @@ summaryLength = 10
 # Menu
 [menu]
     [[menu.nav]]
-    name = "خدمات"
+    name = "فعالیت‌ها"
     URL = "about"
     weight = 1
 
     [[menu.nav]]
-    name = "برنامه ها"
+    name = "برنامه‌ها"
     URL = "pricing"
     weight = 2
 
     [[menu.nav]]
-    name = "تازه ها"
+    name = "تازه‌ها"
     URL = "blog"
     weight = 3
 
@@ -34,7 +34,7 @@ summaryLength = 10
     weight = 4
 
     [[menu.nav]]
-    name = "سایر لینک ها"
+    name = "سایر لینک‌ها"
     URL = "services"
     weight = 5
 
@@ -72,7 +72,7 @@ custom_css = ["css/custom.css"]
     # counter
     [params.counter]
     enable = true
-    bgImage = "images/backgrounds/bg1.jpg"
+    bgImage = "images/backgrounds/line.jpg"
 
     # footer
     [params.footer]
