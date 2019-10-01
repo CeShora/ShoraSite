@@ -1,12 +1,12 @@
 enable: true
 headingSpan: معرفی اعضای شورا
 teamMember:
-  - image: images/team/T1.jpg
+  - image: images/team/M1.jpg
     name: سپیده گلچین‌ راد
     author: سپیده گلچین‌ راد
     designation: دبیر
 
-  - image: images/team/T2.jpg
+  - image: images/team/M2.jpg
     name: کوروش روحی
     author: کوروش روحی
     designation: مسئول فرهنگی
@@ -16,22 +16,22 @@ teamMember:
     author: مریم علی کرمی
     designation: مسئول آموزشی
 
-  - image: images/team/T4.jpg
+  - image: images/team/M4.jpg
     name: امیرحسین سرور
     author: امیرحسین سرور
     designation: مسئول صنفی
 
-  - image: images/team/T5.jpg
+  - image: images/team/M5.jpg
     name: بهار کاویانی
     author: بهار کاویانی
     designation: مسئول مالی
 
-  - image: images/team/T6.jpg
+  - image: images/team/M6.jpg
     name: محمدرضا امینی
     author: محمدرضا امینی
     designation: مسئول ورزشی
 
-  - image: images/team/T7.jpg
+  - image: images/team/M7.jpg
     name: نگین موسوی
     author: نگین موسوی
     designation: مسئول روابط عمومی
