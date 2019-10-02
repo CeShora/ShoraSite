@@ -1,0 +1,51 @@
+{{ if .Site.Data.pricing.enable}}
+{{"<!-- Start Pricing section -->" | safeHTML}}
+<section id="pricing" class="pricing section">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            {{"<!-- section title -->" | safeHTML}}
+            <div class="col-lg-12">
+                <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+                    <h2>{{ with .Site.Data.pricing.heading }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.pricing.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.pricing.pricingTable }}
+            {{"<!-- single pricing table -->" | safeHTML}}
+            <div class="col-lg-4 col-md-6 col-12 text-center wow fadeInUp top-buffer" data-wow-duration="200ms">
+                <!-- h-100 is for have fixed row size -->
+                <div class="price-item h-100">
+
+<!--                    <div class="card " style="width: 18rem;">-->
+<!--                        <img src="{{ .img }}" class="card-img-top h-100" alt="...">-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Card title</h5>-->
+<!--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                            <a href="{{ .btnURL }}" class="btn btn-primary">{{ .btnText }}</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+                    {{"<!-- plan name & value -->" | safeHTML}}
+                    <div class="price-title">
+                        <h2>{{ .title }}</h2>
+                        <p class="value">{{ .time }}</p>
+                    </div>
+                    <div class="container">
+                        {{"<!-- plan images -->" | safeHTML}}
+                        <img src="{{ .img }}">
+                    </div>
+                    {{"<!-- signup button -->" | safeHTML}}
+                    <a class="btn btn-transparent" href="{{ .btnURL }}">{{ .btnText }}</a>
+
+                </div>
+            </div>
+            {{"<!-- end single pricing table -->" | safeHTML}}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /pricing -->" | safeHTML}}
+{{ end }}

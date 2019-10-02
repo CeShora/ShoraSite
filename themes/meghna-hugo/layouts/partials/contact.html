@@ -1,0 +1,97 @@
+{{ if .Site.Data.contact.enable }}
+{{"<!-- Start Contact Us -->" | safeHTML}}
+<section id="contact-us" class="contact-us section-bg">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span
+                            class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{"<!-- Contact Details -->" | safeHTML}}
+            <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+                {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
+                {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
+                {{ with .Site.Data.contact.content2 }} <p> {{ . }} </p> {{ end }}
+
+                <div class="grid-container">
+                    <!-- Sharingbutton Telegram -->
+                    <a class="resp-sharing-button__link" href="https://telegram.me/ceitshora" target="_blank" rel="noopener" aria-label="">
+                        <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z"/></svg>
+                        </div>
+                        </div>
+                    </a>
+                    <span> کانال شورا </span>
+
+                    <!-- Sharingbutton E-Mail -->
+                    <a class="resp-sharing-button__link" href="mailto:shoraceit@gmail.com" target="_self" rel="noopener" aria-label="">
+                        <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
+                        </div>
+                        </div>
+                    </a>
+                    <span> ایمیل شورا </span>
+                    <br>
+
+                    <!-- Sharingbutton Twitter -->
+                    <a class="resp-sharing-button__link" href="https://twitter.com/ceitshora" target="_blank" rel="noopener" aria-label="">
+                        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+                        </div>
+                        </div>
+                    </a>
+                    <span> توییتر شورا </span>
+
+                    <!-- Sharingbutton Instagram -->
+                    <a class="resp-sharing-button__link" href="https://www.instagram.com/ceit_pouyesh/" target="_blank" rel="noopener" aria-label="">
+                        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                        </div>
+                        </div>
+                    </a>
+                    <span> اینستا پویش </span>
+                </div>
+            </div>
+
+            {{"<!-- Contact Form -->" | safeHTML}}
+            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1619.9519377767758!2d51.408374!3d35.70398300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb68840e07e8e513!2sComputer%20Engineering%20%26%20IT%20Department!5e0!3m2!1sen!2sus!4v1567430714508!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+<!--                <form id="contact-form" class="form-meghna" method="post" action="/sendmail.php" role="form">-->
+
+<!--                    <input name="e-mail" type="text" id="e-mail" autocomplete="on">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="text" placeholder="نام و نام خانوادگی" class="form-control" name="name" id="name">-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="email" placeholder="ایمیل" class="form-control" name="email" id="email">-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="text" placeholder="موضوع" class="form-control" name="subject" id="subject">-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <textarea rows="6" placeholder="متن پیام" class="form-control" name="message"-->
+<!--                            id="message"></textarea>-->
+<!--                    </div>-->
+<!--                    <div id="mail-success" class="success">-->
+<!--                        Thank you. The Mailman is on His Way :)-->
+<!--                    </div>-->
+<!--                    <div id="mail-fail" class="error">-->
+<!--                        Sorry, don't know what happened. Try later :(-->
+<!--                    </div>-->
+<!--                    <div id="cf-submit">-->
+<!--                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="ارسال">-->
+<!--                    </div>-->
+<!--                </form>-->
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /contact -->" | safeHTML}}
+{{ end }}
