@@ -9,8 +9,8 @@ aboutItem :
   content : برای اطلاع از کتاب های موجود در کتاب‌خانه‌ی شورا به این بخش مراجعه کنید.
 
 - icon : tf-ion-mic-c
-  url :
-  target :
+  url : html/podcast.html
+  target : "‌_blank"
   title : پادکست
   content : به زودی...
 
