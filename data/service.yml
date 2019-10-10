@@ -1,12 +1,12 @@
 enable : true
 headingSpan : سایت های مرتبط با دانشکده
 serviceItem :
-  - img : images/site/CeitLogo.png
+  - img : images/site/ceLogo.png
     url : https://ceit.aut.ac.ir/autcms/computer-engineering/fa/home
     title : سایت دانشکده
     content :
     
-  - img : images/site/MoodleLogo.png
+  - img : images/site/Moodle.png
     url : https://ceit.aut.ac.ir/courses
     title : مودل
     content :
