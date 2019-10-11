@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "navigation.html" . }}
+{{"<!-- Start Pouyesh Section -->" | safeHTML}}
+<section id="blog" class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2><span class="color">پویش</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+
+            {{"<!-- /section title -->" | safeHTML}}
+            {{range where .Site.RegularPages "Section" "pouyesh"}}
+            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+                <div class="post-block h-100">
+                    <div class="media-wrapper">
+                        {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}
+                    </div>
+
+                    <div class="content">
+                        <h3>{{ .Title }}</h3>
+                        <p>{{ .Summary }}</p>
+                        <a href="{{ .Params.file }}" download="{{ .Title }}">بیشتر بخوانید...</a>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /pouyesh -->" | safeHTML}}
+{{ end }}

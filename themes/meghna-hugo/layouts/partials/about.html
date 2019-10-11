@@ -14,7 +14,7 @@
             {{ range .Site.Data.about.aboutItem }}
             {{"<!-- About item --> " | safeHTML}}
             <div class="col-lg-3 text-center wow fadeInUp" data-wow-duration="500ms">
-                <a href="{{ .url }}" target="{{ .target }}">
+                <a {{ if .url }} href="{{ .url }}" {{else}} href="/author/{{ urlize .author}}" {{end}} target="{{ .target }}">
                     <div class="block h-100">
                         <div class="icon-box">
                             {{with .icon}}<i class="{{ . }}"></i>{{ end }}
@@ -69,23 +69,19 @@
             <div id="carouselExampleControls" class="col-lg-6 carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/about/eyd1.JPG" class="d-block w-100" alt="...">
+                        <img src="images/about/eyd1.JPG" class="d-block center" alt="...">
                         <h4>جشن عید سال ۱۳۹۸</h4>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/about/eftari1.jpg" class="d-block w-100" alt="...">
-                        <h4>افطاری ۱۳۹۸</h4>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/about/eyd2.JPG" class="d-block w-100" alt="...">
+                        <img src="images/about/eyd2.JPG" class="d-block center" alt="...">
                         <h4>جشن عید سال ۱۳۹۸</h4>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/about/eyd3.JPG" class="d-block w-100" alt="...">
+                        <img src="images/about/eyd3.JPG" class="d-block center" alt="...">
                         <h4>جشن عید سال ۱۳۹۸</h4>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/about/30salegi.JPG" class="d-block w-100" alt="...">
+                        <img src="images/about/30salegi.JPG" class="d-block center" alt="...">
                         <h4>جشن سی سالگی  و شب یلدا دانشکده مهندسی کامپیوتر</h4>
                     </div>
                 </div>

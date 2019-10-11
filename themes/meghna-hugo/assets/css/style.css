@@ -782,13 +782,18 @@ a:hover {
     font-weight: 600;
 }
 
+.container-fluid .carousel-inner {
+    alignment: center;
+}
+
 .container-fluid {
     padding-top: 20px;
-    height: 550px;
+    height: 560px;
     direction: ltr;
 }
 
 .container-fluid img{
+    max-height: 500px;
     object-fit: fill;
 }
 
@@ -798,7 +803,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 982px) {
-    /* For tablets: */
     .container-fluid{
         height: 1000px;
     }

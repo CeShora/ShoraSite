@@ -10,7 +10,6 @@
                 <ul class="list-inline mb-50">
                     <li class="list-inline-item"><a href="/author/{{ urlize .Params.author}}">{{ .Params.author }}</a></li>
                     <time datetime="{{ .Date }}">{{ .Params.shamsidate }}</time>
-<!--                    <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>-->
                 </ul>
                 {{ with .Params.image }}<img class="img-fluid mb-50" src="{{ . | absURL }}" alt="blog-image">{{ end }}
             </div>
@@ -18,6 +17,9 @@
                 <div class="post-single-content">
                     {{ .Content }}
                 </div>
+                {{ if .Params.file }}
+                <h2><a href="{{ .Params.file }}" download="{{ .Title }}">kjhsfk</a></h2>
+                {{ end }}
             </div>
         </div>
     </div>
