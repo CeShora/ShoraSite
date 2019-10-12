@@ -18,7 +18,9 @@
                     {{ .Content }}
                 </div>
                 {{ if .Params.file }}
-                <h2><a href="{{ .Params.file }}" download="{{ .Title }}">kjhsfk</a></h2>
+                <a href="{{ .Params.file }}" download="{{ .Title }}">
+                    <button class="btn btn-dark"><h3><i class="tf-ion-ios-download-outline"></i> دانلود فایل</h3></button>
+                </a>
                 {{ end }}
             </div>
         </div>

@@ -7,8 +7,14 @@
 
         <div class="content">
             <h3>{{ with .Params.name}}{{.}}{{else}}{{ .Title }}{{end}}</h3>
-            <p>{{ .Summary }}</p>
-            <a href="{{ .Permalink }}">بیشتر بخوانید...</a>
+            {{ if eq .Params.author "پویش" }}
+                <a href="{{ .Permalink }}">خلاصه مطالب و دانلود فایل</a>
+            {{ else if eq .Params.name "پادکست"}}
+                <a href="{{ .Permalink }}">خلاصه مطالب</a>
+            {{ else }}
+                <p>{{ .Summary }}</p>
+                <a href="{{ .Permalink }}">بیشتر بخوانید...</a>
+            {{ end }}
         </div>
     </div>
 </article>
