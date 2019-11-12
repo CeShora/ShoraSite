@@ -13,7 +13,7 @@ aboutItem :
   author : پادکست
   target :
   title : پادکست
-  content : به زودی...
+  content : برای دانلود پادکست‌های پویش به این بخش مراجعه کنید.
 
 - icon : tf-newspaper
   url :
@@ -24,7 +24,7 @@ aboutItem :
 
 - icon :  tf-ion-settings
   url :
-  author : گزارش
+  author : صنفی
   target :
   title : صنفی
   content : گزارش های صنفی دانشکده را از اینجا بخوانید.
