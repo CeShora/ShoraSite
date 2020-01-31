@@ -9,8 +9,15 @@
             <h3>{{ with .Params.name}}{{.}}{{else}}{{ .Title }}{{end}}</h3>
             {{ if eq .Params.author "پویش" }}
                 <a href="{{ .Permalink }}">خلاصه مطالب و دانلود فایل</a>
-            {{ else if eq .Params.name "پادکست"}}
-                <a href="{{ .Permalink }}">خلاصه مطالب</a>
+            {{ else if eq .Params.author "پادکست"}}
+            <a href="{{ .Params.file | absURL }}" download  class="btn btn-dark">
+                <h5><i class="tf-ion-ios-download-outline"></i> دانلود فایل</h5>
+            </a>
+            {{ else if eq .Params.author "صنفی"}}
+            <p>{{ .Params.shamsiDate }}</p>
+            <a href="{{ .Params.file | absURL }}" download  class="btn btn-dark">
+                <h5><i class="tf-ion-ios-download-outline"></i> دانلود فایل</h5>
+            </a>
             {{ else }}
                 <p>{{ .Summary }}</p>
                 <a href="{{ .Permalink }}">بیشتر بخوانید...</a>

@@ -75,39 +75,39 @@
     </div>
 </section>
 {{ else if eq .Params.name "پادکست"}}
-<!--<section class="section">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-lg-12">-->
-<!--                <div class="title text-center">-->
-<!--                    <h2><span class="color">نوشته ها</span></h2>-->
-<!--                    <div class="border-meghna"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            {{ range .Data.Pages }}-->
-<!--            {{ .Render "article" }}-->
-<!--            {{ end }}-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    </div>-->
-<!--</section>-->
-{{ else if eq .Params.name "گزارش"}}
-<!--<section class="section">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-lg-12">-->
-<!--                <div class="title text-center">-->
-<!--                    <h2><span class="color">نوشته ها</span></h2>-->
-<!--                    <div class="border-meghna"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            {{ range .Data.Pages }}-->
-<!--            {{ .Render "article" }}-->
-<!--            {{ end }}-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    </div>-->
-<!--</section>-->
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="title text-center">
+                    <h2><span class="color">اپیزودها</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{ range .Data.Pages }}
+            {{ .Render "article" }}
+            {{ end }}
+        </div>
+    </div>
+    </div>
+</section>
+{{ else if eq .Params.name "صنفی"}}
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="title text-center">
+                    <h2><span class="color">گزارش ها</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{ range .Data.Pages }}
+            {{ .Render "article" }}
+            {{ end }}
+        </div>
+    </div>
+    </div>
+</section>
 {{ else }}
 <section class="section">
     <div class="container">

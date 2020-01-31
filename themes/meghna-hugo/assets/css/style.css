@@ -1218,12 +1218,13 @@ a:hover {
 
 .post-block .content {
     padding: 20px;
+    text-align: center;
 }
 
 .post-block .content h3 {
     margin: 0 0 6px;
-    color: #ffffff;
-    font-size: 22px;
+    color: #c5c5c5;
+    font-size: 30px;
     line-height: 1.5;
     text-transform: capitalize;
 }
@@ -1233,20 +1234,16 @@ a:hover {
     border-top-right-radius: 20px;
 }
 
-.post-block .content p {
-
-}
-
 .post-block .content a {
     margin: 0 0 6px;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .post-block .content a:hover {
     margin: 0 0 6px;
     color: #000000;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .note .media-wrapper {

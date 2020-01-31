@@ -11,7 +11,9 @@
                     <li class="list-inline-item"><a href="/author/{{ urlize .Params.author}}">{{ .Params.author }}</a></li>
                     <time datetime="{{ .Date }}">{{ .Params.shamsidate }}</time>
                 </ul>
+<!--                {{ if ne .Params.author "پادکست" }}-->
                 {{ with .Params.image }}<img class="img-fluid mb-50" src="{{ . | absURL }}" alt="blog-image">{{ end }}
+<!--                {{ end }}-->
             </div>
             <div class="col-lg-8 offset-lg-2">
                 <div class="post-single-content">
