@@ -67,8 +67,8 @@
                     <div class="border-meghna"></div>
                 </div>
             </div>
-            {{ range .Data.Pages }}
-            {{ .Render "article" }}
+            {{ range .Data.Pages.ByDate.Reverse }}
+                {{ .Render "article" }}
             {{ end }}
         </div>
     </div>

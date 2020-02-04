@@ -1,8 +1,14 @@
 enable : true
 headingSpan : برنامه های پیش‌رو
 pricingTable :
-  - title : جشن فارغ‌التحصیلی
-    time : پنج‌شنبه ۷ آذر‌ماه ۹۸
-    img : images/event/فارغ-التحصیلی۹۴.jpg
-    btnURL : #
-    btnText : به زودی
+#  - title : هفته‌ی شورا
+#    time : شروع از هفته‌ی دوم ترم پیش‌رو
+#    img : images/event/فارغ-التحصیلی۹۴.jpg
+#    btnURL : #
+#    btnText : به زودی
+
+  - title: پخش پویش نسخه ۴۴
+    time: ۲۶ بهمن‌ماه ۹۸
+    img: images/event/pouyesh.jpg
+    btnURL: #
+    btnText: به زودی

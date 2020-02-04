@@ -1,6 +1,7 @@
 ---
 title: "پویش نسخه ۴۱"
 shamsiDate: "۶ مهر ماه ۱۳۹۸"
+date: 2019-09-28 00:00:00 +0000 UTC
 author: پویش
 image: images/pouyesh/pouyesh41.jpg
 file: pouyesh/Pouyesh41.pdf

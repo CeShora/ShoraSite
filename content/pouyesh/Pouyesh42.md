@@ -1,6 +1,7 @@
 ---
 title: "پویش نسخه ۴۲"
 shamsiDate: "۲۱ آبان ماه ۱۳۹۸"
+date: 2019-11-12 00:00:00 +0000 UTC
 author: پویش
 image: images/pouyesh/pouyesh42.jpg
 file: pouyesh/Pouyesh42.pdf
