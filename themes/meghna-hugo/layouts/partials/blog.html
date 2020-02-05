@@ -13,7 +13,7 @@
             </div>
 
             {{"<!-- /section title -->" | safeHTML}}
-            {{range where .Site.RegularPages "Section" "blog"}}
+            {{range first 3 (where .Site.RegularPages "Section" "blog") }}
             <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
                 <div class="post-block h-100">
                     <div class="media-wrapper">
@@ -29,27 +29,11 @@
             </article>
             {{ end }}
 
-<!--            {{ range .Data.Pages }}-->
-<!--            {{"&lt;!&ndash; single blog post &ndash;&gt;" | safeHTML}}-->
-<!--            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">-->
-<!--                <div class="post-block h-100">-->
-<!--                    <div class="media-wrapper">-->
-<!--                        {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}-->
-<!--                    </div>-->
 
-<!--                    <div class="content">-->
-<!--                        <h3>{{ .Title }}</h3>-->
-<!--                        <p>{{ .Summary }}</p>-->
-<!--                        <a href="{{ .Permalink }}">بیشتر بخوانید...</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </article>-->
-<!--            {{"&lt;!&ndash; /single blog post &ndash;&gt;" | safeHTML}}-->
-<!--            {{ end }}-->
+            <div class="all-post text-center col-lg-12">
+                <a class="btn btn-main" href="{{ if .Site.GetPage "/blog" }}/blog{{ else }}/posts{{end}}"><strong>همه پست ها</strong></a>
+            </div>
 
-<!--            <div class="all-post text-center col-lg-12">-->
-<!--                <a class="btn btn-main" href="{{ if .Site.GetPage "/all-post" }}/all-post{{ else }}/posts{{end}}"><strong>همه پست ها</strong></a>-->
-<!--            </div>-->
         </div>
     </div>
 </section>
