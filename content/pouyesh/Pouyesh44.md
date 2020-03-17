@@ -4,6 +4,7 @@ shamsiDate: "۲۸ بهمن ماه ۱۳۹۸"
 date: 2020-02-18 00:00:00 +0000 UTC
 author: پویش
 image: images/pouyesh/pouyesh44.jpg
+image2: images/pouyesh/list/pouyesh44.jpg
 file: pouyesh/Pouyesh44.pdf
 ---
 
