@@ -1,0 +1,13 @@
+---
+title: "پویش نسخه ۲۸"
+shamsiDate: "اسفند ماه ۱۳۹۴"
+date: 2016-2-0 00:00:00 +0000 UTC
+author: پویش
+image: images/pouyesh/pouyesh28.jpg
+file: pouyesh/Pouyesh28.pdf
+---
+
+ویژه‌نامه‌ی نوروز ۹۵
+===============
+
+----

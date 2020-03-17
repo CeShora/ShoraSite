@@ -7,5 +7,7 @@ image: images/pouyesh/pouyesh32.jpg
 file: pouyesh/Pouyesh32.pdf
 ---
 
+ویژه‌نامه‌ی نوروز ۹۶
+===============
 
 ----
