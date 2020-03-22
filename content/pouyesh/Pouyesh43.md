@@ -4,7 +4,7 @@ shamsiDate: "۱ دی ماه ۱۳۹۸"
 date: 2019-12-22 00:00:00 +0000 UTC
 author: پویش
 image: images/pouyesh/pouyesh43.jpg
-image2: images/pouyesh/list/pouyesh43.jpg
+image2: images/pouyesh/list/Pouyesh43-2.jpg
 file: pouyesh/Pouyesh43.pdf
 ---
 
