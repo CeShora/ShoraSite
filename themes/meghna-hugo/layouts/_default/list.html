@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
 
-            {{ range .Data.Pages }}
+            {{ range .Data.Pages.ByDate.Reverse }}
             {{"<!-- single blog post -->" | safeHTML}}
             {{ .Render "article" }}
             {{"<!-- /single blog post -->" | safeHTML}}
