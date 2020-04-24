@@ -1,5 +1,5 @@
 enable : true
-headingSpan : سایت های مرتبط با دانشکده
+headingSpan : سایت‌های مرتبط با دانشکده
 serviceItem :
   - img : images/site/ceLogo.png
     url : https://ceit.aut.ac.ir/autcms/computer-engineering/fa/home
