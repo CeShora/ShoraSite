@@ -1,6 +1,6 @@
 ---
-name: سپیده گلچین ‌راد
-email: sgr.1378@gmail.com
+name: گلچین
+email:
 github:
 ---
 
