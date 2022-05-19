@@ -1,9 +1,9 @@
 enable: true
 headingSpan: معرفی اعضای شورا
 teamMember:
-  - image: images/team/M1.jpg
-    name: سپیده گلچین‌ راد
-    author: سپیده گلچین‌ راد
+  - image: images/team/default_member.jpg
+    name: گلچین‌
+    author: گلچین‌
     designation: دبیر
 
   - image: images/team/M2.jpg
@@ -30,8 +30,3 @@ teamMember:
     name: محمدرضا امینی
     author: محمدرضا امینی
     designation: مسئول ورزشی
-
-  - image: images/team/T7.jpg
-    name: نگین موسوی
-    author: نگین موسوی
-    designation: مسئول روابط عمومی
